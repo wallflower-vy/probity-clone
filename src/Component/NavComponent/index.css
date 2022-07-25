@@ -1,0 +1,140 @@
+.nav-box{
+    background-color: #5373E3;
+    /* background-color: red; */
+    padding: 10px;
+    width:100%;
+    overflow: auto;
+    position: fixed;
+    z-index: 100;
+}
+.logo-box{
+    /* background-color: green; */
+    width:35%;
+    margin-left: 15%;
+    padding: 10px;
+    float:left;
+}
+.logo{
+    width: 28%;
+    padding: 10px;
+}
+.menu{
+    float:right;
+    color:white;
+    font-size: 33px;
+    padding: 0px 12px;
+    display: none;
+}
+.nav-menu{
+    /* background-color: aqua; */
+    width:30%;
+    padding: 10px;
+}
+.nav-links{
+    font-size: 14px;
+}
+li > a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+.facebook{
+    color:white;
+    font-size: 33px;
+    padding: 2px 10px;
+    opacity: 1
+}
+.facebook:hover {
+    color:white;
+    font-size: 32px;
+    padding: 2px 10px;
+    opacity:.6;
+}
+
+.nav-icons-box{
+    /* background-color: purple; */
+    width: 20%;
+    float:right;
+    padding-top:10px ;
+    margin-left: 10px;
+    
+    /* display: inline; */
+}
+
+
+@media (max-width:575px) {
+    .nav-box{
+        /* background-color:blue; */
+        width:100%;
+        overflow: hidden;
+        position: fixed;
+        padding: 0px;
+        z-index: 100;
+
+    }
+    .nav-icons-box{
+        display: none;
+    }
+    .menu{ 
+        
+        color:white;
+        font-size: 33px;
+        padding: 0px 12px;
+        display: inline-block;
+       
+    }
+    .nav-links{
+        display: none;
+    }
+    .logo-box{
+        width:35%;
+        float:left;
+    }
+    .logo{
+        width: 100%;
+        float:left;
+    }
+    
+}
+
+
+@media screen and (min-width:575px )and (max-width:992px){ 
+    .nav-box{
+        /* background-color:blue; */
+        position: fixed;
+        width:100%;
+        overflow: hidden;
+        padding: 0px;
+
+    }
+    .nav-icons-box{
+        display: none;
+    }
+    .menu{ 
+        
+        color:white;
+        font-size: 33px;
+        padding: 10px 12px;
+        display: inline-block;
+       
+    }
+    .nav-links{
+        display: none;
+    }
+    .logo-box{
+        width:25%;
+        float:left;
+        margin-left: -0px;
+        /* background-color: red; */
+    }
+    .logo{
+        width: 70%;
+        float:left;
+    }
+    
+  }

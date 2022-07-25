@@ -1,0 +1,29 @@
+.banner-box{
+    background-color:#5373E3;
+    /* background-color: aquamarine; */
+    color:aliceblue;
+    box-sizing: border-box;
+    overflow: auto;
+    width:100%;
+    padding:60px 90px;
+    height: 900px;
+}
+@media screen and (max-width: 575px) {
+   .banner-box{
+      /* background-color: lightgreen; */
+      height: 1700px;
+      padding:30px 20px;
+      overflow: hidden;
+    }
+  }
+  
+
+  @media screen and (min-width:575px )and (max-width:992px){ 
+    .banner-box{
+      /* background-color: lightgreen; */
+      padding:30px 20px;
+      overflow: hidden;
+      height: 1450px;
+    }
+  }
+

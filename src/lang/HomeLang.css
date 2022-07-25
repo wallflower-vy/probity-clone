@@ -1,0 +1,42 @@
+.icon-point1{
+    background-color: #FF4829;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bolder;
+    padding: 10px;
+    height: 50px;
+    width:50px;
+    
+}
+
+.icon-point2{
+    background-color: #00D1A6;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bolder;
+    padding: 10px;
+    height: 50px;
+    width:50px;
+}
+.icon-point3{
+    background-color: #009AEF;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bolder;
+    padding: 10px;
+    height: 50px;
+    width:50px;
+}
+.icon-point4{
+    background-color: #FFA035;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bolder;
+    padding: 10px;
+    height: 50px;
+    width:50px;
+}

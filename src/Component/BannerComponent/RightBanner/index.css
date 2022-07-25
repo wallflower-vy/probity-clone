@@ -1,0 +1,37 @@
+.right-banner-box{
+    width:52%;
+    height:640px;
+    /* background-color: orange; */
+    float:right;
+    overflow: auto;
+    padding:5px 20px;
+    margin-top: 60px;
+    
+    
+}
+@media screen and (max-width: 575px){
+    .right-banner-box{
+        width:100%;
+        height:1200px;
+        /* background-color:green; */
+        float:none;
+        overflow: auto;
+        padding:5px 20px;
+        
+        
+    }
+}
+@media screen and (min-width:575px )and (max-width:992px){ 
+    .right-banner-box{
+        width:100%;
+        height:1700px;
+        /* background-color:green; */
+        float:none;
+        overflow: auto;
+        padding:5px 20px;
+        
+        
+    }
+  }
+
+

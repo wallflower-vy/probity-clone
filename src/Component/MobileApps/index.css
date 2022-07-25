@@ -1,0 +1,30 @@
+.mobileapp-box{
+    background-color:#F8F9FE;
+    padding: 40px 200px;
+    /* overflow: auto; */
+    display :flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 575px){
+    .mobileapp-box{
+        background-color:#F8F9FE;
+        flex-flow: column;
+        padding:0px 5px;
+        margin-top: -40px;
+        /* overflow: auto; */
+    }
+}
+@media screen and (min-width:575px )and (max-width:992px){ 
+    .mobileapp-box{
+        background-color:#F8F9FE;
+        /* background-color: red; */
+        flex-flow: column;
+        padding:0px 30px;
+        margin-top: -0px;
+        /* overflow: auto; */
+    }
+  }
+
+

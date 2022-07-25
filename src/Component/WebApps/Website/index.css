@@ -1,0 +1,46 @@
+.website-box{
+    /* background-color: blue; */
+    width: 45%;
+    margin-top: 50px;
+    padding: 2px 5px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 22px;
+}
+.cross-text{
+    font-size: 17.5px;
+    color:grey;
+    /* opacity:.9 */
+}
+
+@media screen and (max-width: 575px){
+    .website-box{
+        /* background-color: blue; */
+        width: 100%;
+        margin-top: 70px;
+        padding: 2px 5px;
+        float: left;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    
+}
+@media screen and (min-width:575px )and (max-width:992px){ 
+    .website-box{
+        /* background-color: blue; */
+        width: 100%;
+        margin-top: 50px;
+        text-align: justify;
+        padding: 2px 30px;
+        float: left;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    
+  }
+
+
+
+
+
+

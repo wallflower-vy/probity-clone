@@ -1,0 +1,33 @@
+.webimage-box{
+    width:50%;
+    /* background-color: red; */
+    float: left;
+}
+.webimage{
+    width:95%;
+}
+
+@media screen and (max-width: 575px){
+    .webimage-box{
+        width:100%;
+        margin-top: 50px;
+        float: none;
+    }
+    .webimage{
+        width:100%;
+    }
+    
+}
+@media screen and (min-width:575px )and (max-width:992px){ 
+    .webimage-box{
+        width:80%;
+        margin-top: 30px;
+        margin-left: 45px;
+        float: none;
+    }
+    .webimage{
+        width:100%;
+    }
+    
+  }
+

@@ -1,0 +1,72 @@
+ .package-card{
+    background-color: white;
+    /* background-color: saddlebrown; */
+    /* float:left; */
+    margin-left: 10px;
+    font-size: 20px !important;
+    color:black;
+    height: 400px;
+    width: 350px;
+    padding: 50px 40px;
+    z-index: 100;
+    border-radius: 8px;
+    margin-top: -80px;
+    box-shadow: 0px 5px 15px lightgray;
+    
+    /* transition: 0.5s ease-in-out; */
+    
+
+   /* justify-content: left; */
+ }
+
+ .package-card:hover{
+  transform: translateY(20px);
+  /* transition:0.5s all; */
+  transition: 0.5s ease-in-out; 
+ }
+
+ @media screen and (max-width: 575px){
+  .package-card{
+    background-color: white;
+    /* display: inline-block; */
+    /* float:none !important; */
+    /* margin-bottom:15px; */
+    margin-left: 25px;
+    color:black;
+    height: 400px;
+    width: 85%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top:0px !important;
+    margin-bottom: 40px !important;
+    box-shadow: 0px 0px 0px white;
+    
+ }
+ .package-card:hover{
+  /* transform: translateY(20px); */
+  /* transition:0.5s all; */
+  /* transition: 0.5s ease-in-out; */
+  margin-bottom: 30px; 
+ }
+  
+}
+
+@media screen and (min-width:575px )and (max-width:992px){ 
+  .package-card{
+    background-color: white;
+    /* display: inline-block; */
+    /* float:none !important; */
+    /* margin-bottom:15px; */
+    margin-left: 25px;
+    color:black;
+    height: 400px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top:0px !important;
+    margin-bottom: 40px !important;
+    box-shadow: 0px 0px 0px white;
+    
+ }
+}
+

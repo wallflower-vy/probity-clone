@@ -1,0 +1,144 @@
+.card{
+    /* background-color: purple; */
+    width: 270px;
+    padding: 20px;
+    float:left;
+    
+    color:#000000;
+    height: 253px;
+    border-radius: 10px !important;
+}
+
+.four-card-text{
+    font-size: 18px;
+    opacity:.7;
+}
+.four{
+    margin-top: 15px;
+}
+.box{
+    background-color: #FF4829;
+    opacity: .9;
+    padding:5px 10px 8px 10px;
+    text-align: center;
+    border-radius: 50%;
+    border:none;
+   
+    width:25%;
+    /* height: 25%; */
+    /* margin-bottom: 19px; */
+}
+/* .hand{
+    text-align: center
+    border: none; 
+    font-size: 18px;
+    color: white;
+    
+} */
+.green{
+    background-color: #00D1A6;
+    opacity: .9;
+    padding:5px 10px 8px 10px;
+    border-radius: 50%;
+    border:none;
+    width:25%;
+    margin-bottom: 19px;
+}
+.blue{
+    background-color: #009AEF;
+    opacity: .9;
+    padding:5px 10px 8px 10px;
+    border-radius: 50%;
+    border:none;
+    width:25%;
+    margin-bottom: 19px;
+}
+.orange{
+    background-color: #FFA035;
+    opacity: .9;
+    padding:5px 10px 8px 10px;
+    border-radius: 50%;
+    border:none;
+    width:25%;
+    margin-bottom: 19px;
+}
+.poster{
+     background-color: black;
+
+}
+
+
+@media screen and (max-width: 575px){
+    .card{
+        background-color: white;
+        width: 108% !important;
+        margin-top: -10px  !important ;
+        margin-left: -30px !important;
+        
+        
+        
+    }
+    .box{
+        background-color: #FF4829;
+        opacity: .9;
+        padding:10px;
+        font-size: 20px;
+        border-radius: 50%;
+        border:none;
+        width:20%;
+        margin-bottom: 19px;
+    }
+    .hand{
+        /* text-align: center;
+        border: none;
+        color: white; */
+        
+        
+    }
+    .green{
+        background-color: #00D1A6;
+        opacity: .9;
+        padding:10px;
+        border-radius: 50%;
+        font-size: 20px;
+        border:none;
+        width:20%;
+        margin-bottom: 19px;
+    }
+    .blue{
+        background-color: #009AEF;
+        opacity: .9;
+        font-size: 20px;
+        padding:10px;
+        border-radius: 50%;
+        border:none;
+        width:20%;
+        margin-bottom: 19px;
+    }
+    .orange{
+        background-color: #FFA035;
+        opacity: .9;
+        padding:10px;
+        border-radius: 50%;
+        border:none;
+        font-size: 20px;
+        width:20%;
+        margin-bottom: 19px;
+    }
+    .text{
+        font-size: 18px !important;
+    }
+}  
+
+@media screen and (min-width:575px )and (max-width:992px){ 
+    .card{
+        /* background-color: purple; */
+        width: 100%;
+        margin: 5px !important;
+        padding: 20px;
+        float:left;
+        color:#000000;
+        height: 253px;
+        border-radius: 10px !important;
+    }
+  }
